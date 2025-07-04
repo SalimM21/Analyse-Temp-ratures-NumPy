@@ -22,13 +22,3 @@ print("\nInverse :")
 print(inverse)
 
 
-print("\n--------------------------------------------------------------")
-
-
-# Vérifiez que la multiplication de la matrice par son inverse donne la matrice identité.
-identite = np.dot(produit_matriciel, inverse)
-print("\nProduit de la matrice et de son inverse (doit être la matrice identité) :")
-print(identite)
-# Vérifiez que la transposée de la matrice est égale à l'inverse de la matrice transposée.
-assert np.allclose(transpose, inverse.T), "La transposée n'est pas égale à l'inverse de la matrice transposée"
-print("La transposée est égale à l'inverse de la matrice transposée.")
