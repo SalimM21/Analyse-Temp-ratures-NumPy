@@ -20,5 +20,3 @@ print("\nTransposée :")
 print(transpose)
 print("\nInverse :")
 print(inverse)
-
-
